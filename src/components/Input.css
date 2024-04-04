@@ -1,0 +1,67 @@
+section.input{
+    padding-top: 5rem;
+    margin: 3rem 0 0 -18rem;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.form_wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.input_wrap{
+    display: flex;
+    align-items: center;
+    
+    border: 1px solid rgb(30, 107, 224);
+    border-radius: 3px;
+    margin-top: 23px;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 400px;
+    outline: none;
+}
+
+button{
+    background-color: rgb(30, 107, 224);
+    color: #fff;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.suggested{
+    background-color: rgb(30, 107, 224);
+    color: #fff;
+    pad: 2px 10px;
+    font-size: large;
+    border-radius: 4px;
+    margin-right: 10px;
+ 
+    text-align: center;
+    margin-top: 5px;
+    display: inline-block;
+   
+    
+}
+
+.def {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Adjust the margin as needed to position the definition below the button */
+    font-weight: bolder; /* Make the text bold */
+    font-size: xx-large;
+    color: rgb(30, 107, 224); /* Set the text color to blue */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+  }
+  

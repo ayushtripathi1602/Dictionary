@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    
+    margin: 1rem 0 1rem ;
+    list-style: none;
+    
+    
+}
+    
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 107, 224);
+    
+}   
+    
+    
+    
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    text-decoration: none; 
+}
+    
+
+.nav-links li a {
+    color: white; /* Set link color to white */
+    text-decoration: none;
+    font-weight: bold; /* Make the text bold */
+    font-size: 35px;
+    margin-left: 5rem;
+  }
+
+    
